@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(to right, lightblue, rgb(122, 227, 122));
+}
+
+.flex-container {
+    border: 1px solid black;
+    width: 400px; 
+    height: 600px; 
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+}
+
+button {
+    height: 20%;
+    width: 25%;
+    margin: 0;
+    background: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    color:rgb(11, 11, 9);
+    border-color: white;
+}
+
+.display {
+    height: 100px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+.output {
+    width: 300px;
+    height: 95px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: flex-start;
+    background: whitesmoke;
+}
+
+.previous-input {
+    display: flex;
+    justify-content: end;
+    width: 300px;
+    height: 25px;
+    font-size: 14px;
+}
